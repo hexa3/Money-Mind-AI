@@ -1,0 +1,143 @@
+<div align="center">
+
+# 🧠 MoneyMind AI
+
+### *Duolingo for Real-Life Financial Intelligence*
+
+[![Next.js](https://img.shields.io/badge/Next.js_15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+
+**🏆 Built for West Hacks · Fintech + Education Track**
+
+[Features](#-features) · [Demo](#-demo-accounts) · [Tech Stack](#-tech-stack) · [Getting Started](#-getting-started) · [Architecture](#-architecture) · [Roadmap](#-roadmap)
+
+</div>
+
+---
+
+## 🎯 The Problem
+
+Students graduate without the financial judgment that actually matters in the real world — budgeting under pressure, recognizing scams, managing debt, understanding credit, and planning for the future. Passive lectures and worksheets don't build intuition. **Real decisions require practice.**
+
+## 💡 The Solution
+
+MoneyMind AI transforms financial literacy into an **interactive life simulator**. Students make real choices, face real consequences, earn XP, and unlock achievements — all while building the mental models they'll use for the rest of their lives. Powered by AI that explains *why* one decision is safer, smarter, or costlier than another.
+
+> Think Duolingo streaks meets a financial flight simulator.
+
+---
+
+## ✨ Features
+
+### 🎮 AI Life Simulator
+Personalized scenarios put students in real financial situations — job loss, unexpected bills, investment opportunities. Every choice moves their financial score. AI explains the ripple effects.
+
+### 🗺️ Financial Quest System
+Levels, XP, streaks, badges, and missions keep students coming back. Progress feels earned because it is — each quest maps to a real financial skill.
+
+### 🤖 AI Tutor
+On-demand, personalized explanations for every concept. Students can ask follow-up questions without judgment, at 2am, before an exam, or mid-simulation.
+
+### 🚨 Scam Detector
+Paste any suspicious message or scenario. Get an AI-powered risk score, flagged red flags, and a full educational breakdown of the manipulation tactics being used.
+
+### 🔮 Future Self Visualizer
+Students set savings goals and see projected milestones — visualizing their future self creates accountability that abstract percentages never could.
+
+### 📊 Teacher Dashboard
+Assignments, classroom analytics, a live leaderboard, and at-risk student insights — everything educators need to bring financial literacy into the classroom without building curriculum from scratch.
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 15 App Router |
+| Language | TypeScript |
+| Styling | Tailwind CSS + shadcn-style components |
+| Animation | Framer Motion |
+| State | Zustand (persisted) |
+| Charts | Recharts |
+| Auth | Auth.js |
+| Database | Supabase / PostgreSQL |
+| AI | OpenAI API (with deterministic fallback) |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/moneymind-ai
+cd moneymind-ai
+npm install
+cp .env.example .env.local
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+> **Zero-config by default.** The app runs fully without API keys using deterministic fallback AI logic. Add `OPENAI_API_KEY` to `.env.local` to enable live AI responses.
+
+---
+
+## 🔑 Demo Accounts
+
+| Role | Email | Password |
+|---|---|---|
+| 👩‍🎓 Student | `student@moneymind.ai` | `westhacks` |
+| 👩‍🏫 Teacher | `teacher@moneymind.ai` | `westhacks` |
+
+---
+
+## 🏗 Architecture
+
+```text
+src/app                 App Router pages and auth routes
+src/components          Reusable UI, layout, and feature components
+src/lib/actions         Server actions — AI, scam detection, tutor, future timeline
+src/lib                 Financial engine, types, utilities, demo data
+src/store               Zustand persisted learner progress
+supabase/schema.sql     PostgreSQL tables and starter RLS policies
+docs/                   Devpost copy, sample data, and demo script
+```
+
+---
+
+## 📸 Screenshots
+
+| Landing | AI Life Simulator | Scam Detector |
+|---|---|---|
+| _coming soon_ | _coming soon_ | _coming soon_ |
+
+| Future Self Visualizer | Teacher Dashboard |
+|---|---|
+| _coming soon_ | _coming soon_ |
+
+---
+
+## 🗺 Roadmap
+
+- [ ] Full Supabase persistence for scenario attempts and classroom rosters
+- [ ] Production RLS policies mapped to Auth.js identities
+- [ ] Curriculum standards export for teachers
+- [ ] Scenario packs: taxes, credit, investing, entrepreneurship, family finance
+- [ ] Parent/guardian progress summaries
+- [ ] Mobile app
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome. Check out the [issues page](../../issues).
+
+---
+
+<div align="center">
+
+Built with ❤️ from ibnshafi
+
+</div>
