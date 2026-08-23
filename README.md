@@ -71,8 +71,8 @@ Assignments, classroom analytics, a live leaderboard, and at-risk student insigh
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-username/moneymind-ai
-cd moneymind-ai
+git clone https://github.com/hexa3/Money-Mind-AI
+cd Money-Mind-AI
 npm install
 cp .env.example .env.local
 npm run dev
@@ -109,13 +109,7 @@ docs/                   Devpost copy, sample data, and demo script
 
 ## 📸 Screenshots
 
-| Landing | AI Life Simulator | Scam Detector |
-|---|---|---|
-| _coming soon_ | _coming soon_ | _coming soon_ |
-
-| Future Self Visualizer | Teacher Dashboard |
-|---|---|
-| _coming soon_ | _coming soon_ |
+<!-- TODO: add screenshots of the landing page, AI life simulator, scam detector, future self visualizer, and teacher dashboard (npm run dev → capture each view) -->
 
 ---
 
@@ -132,13 +126,13 @@ docs/                   Devpost copy, sample data, and demo script
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome. Check out the [issues page](../../issues).
+Contributions, issues, and feature requests are welcome. Check out the [issues page](https://github.com/hexa3/Money-Mind-AI/issues).
 
 ---
 
 <div align="center">
 
-Built with ❤️ from ibnshafi
+Built by Sheheryar
 
 </div>
 
