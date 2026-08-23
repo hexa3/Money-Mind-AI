@@ -141,3 +141,7 @@ Contributions, issues, and feature requests are welcome. Check out the [issues p
 Built with ❤️ from ibnshafi
 
 </div>
+
+## License
+
+[MIT](LICENSE) — built for West Hacks; educational prototype, not financial advice.
