@@ -128,14 +128,10 @@ docs/                   Devpost copy, sample data, and demo script
 
 Contributions, issues, and feature requests are welcome. Check out the [issues page](https://github.com/hexa3/Money-Mind-AI/issues).
 
----
-
-<div align="center">
-
-Built by Sheheryar
-
-</div>
-
 ## License
 
 [MIT](LICENSE) — built for West Hacks; educational prototype, not financial advice.
+
+---
+
+<p align="center">Built by <a href="https://sheheryar.xyz">Sheheryar</a> · <a href="https://github.com/hexa3">github.com/hexa3</a></p>
